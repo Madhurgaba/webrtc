@@ -15,6 +15,8 @@ function SimpleWebRTC(opts) {
             debug: false,
             localVideoEl: '',
             remoteVideosEl: '',
+
+            
             enableDataChannels: true,
             autoRequestMedia: false,
             autoRemoveVideos: true,
