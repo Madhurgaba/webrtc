@@ -8,6 +8,7 @@ var SocketIoConnection = require('./socketioconnection');
 function SimpleWebRTC(opts) {
     var self = this;
     var options = opts || {};
+    
     var config = this.config = {
             url: 'https://signaling.simplewebrtc.com:443/',
             socketio: {/* 'force new connection':true*/},
