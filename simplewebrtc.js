@@ -7,8 +7,7 @@ var SocketIoConnection = require('./socketioconnection');
 
 function SimpleWebRTC(opts) {
     var self = this;
-    var options = opts || {}
-    
+    var options = opts || {};
     var config = this.config = {
             url: 'https://signaling.simplewebrtc.com:443/',
             socketio: {/* 'force new connection':true*/},
@@ -16,8 +15,6 @@ function SimpleWebRTC(opts) {
             debug: false,
             localVideoEl: '',
             remoteVideosEl: '',
-
-            
             enableDataChannels: true,
             autoRequestMedia: false,
             autoRemoveVideos: true,
