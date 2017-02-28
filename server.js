@@ -2,7 +2,6 @@
  var privateKey = fs.readFileSync('fakekeys/privatekey.pem').toString();
     certificate = fs.readFileSync('fakekeys/certificate.pem').toString();
 
-
 var app = express();
 
 app.use(express.static(__dirname));
