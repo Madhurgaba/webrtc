@@ -1,5 +1,5 @@
 
- sdvar privateKey = fs.readFileSync('fakekeys/privateke
+ sdvar privateKey = fs.readFileSync('fakekeys/privatekey.pem').toString();
     certificate = fs.readFileSync('fakekeys/certificate.pem').toString();
 
 
