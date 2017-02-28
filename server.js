@@ -1,5 +1,4 @@
-// silly chrome wants SSL to do screensharing
-dsdsds
+// silly chrome wants SSL to do screens
 
 var privateKey = fs.readFileSync('fakekeys/privatekey.pem').toString(),
     certificate = fs.readFileSync('fakekeys/certificate.pem').toString();
