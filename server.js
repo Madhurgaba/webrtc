@@ -1,8 +1,4 @@
 // silly chrome wants SSL to do screensharing
-var fs = require('fs'),
-
-    https = require('https'),
-    http = require('http');
 
 
 var privateKey = fs.readFileSync('fakekeys/privatekey.pem').toString(),
